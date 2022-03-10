@@ -78,8 +78,8 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Password salah", Toast.LENGTH_SHORT).show();
                 } else if (edPassword.getText().toString().equals("1234")) {
                     Toast.makeText(MainActivity.this, "Email salah", Toast.LENGTH_SHORT).show();
-                } else if (edPassword.getText().toString().equals("x19-A")) {
-                    Toast.makeText(MainActivity.this, "Email salah", Toast.LENGTH_SHORT).show();
+                } else if (edPassword.getText().toString().equals("1234")) {
+                    Toast.makeText(MainActivity.this, "Password salah", Toast.LENGTH_SHORT).show();
                 } else
                     Toast.makeText(MainActivity.this, "Email dan password salah", Toast.LENGTH_SHORT).show();
             }
