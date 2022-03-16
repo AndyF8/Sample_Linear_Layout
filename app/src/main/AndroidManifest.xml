@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleLinearLayout">
+        <activity android:name=".Activityempat"
+            android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -32,6 +34,8 @@
             android:label="@string/label2">
 
         </activity>
+
+
     </application>
 
 </manifest>
