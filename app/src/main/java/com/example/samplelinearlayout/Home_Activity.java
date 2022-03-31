@@ -88,9 +88,6 @@ public class Home_Activity extends AppCompatActivity implements PopupMenu.OnMenu
                     Toast.makeText(getApplicationContext(),"Ini untuk edit kontak",
                             Toast.LENGTH_LONG).show();
                     break;
-
-
-
             }
             return false;
 
